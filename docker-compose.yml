@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: handyhub-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: handyhub
+      POSTGRES_USER: mayanu
+      POSTGRES_PASSWORD: mayanuHh$
+    ports:
+      - "5432:5432"
+    volumes:
+      - handyhub_pg_data:/var/lib/postgresql/data
+
+volumes:
+  handyhub_pg_data:
