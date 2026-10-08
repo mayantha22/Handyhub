@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/handyhub}
+    username: ${DB_USERNAME:mayanu}
+    password: ${DB_PASSWORD:mayanuHh123}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
