@@ -79,8 +79,8 @@
 		</dependency>
 		<!-- Source: https://mvnrepository.com/artifact/org.flywaydb/flyway-core -->
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-flyway</artifactId>
 		</dependency>
 
 		<!-- Source: https://mvnrepository.com/artifact/org.flywaydb/flyway-database-postgresql -->
@@ -93,6 +93,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
+
 	</dependencies>
 
 	<build>
